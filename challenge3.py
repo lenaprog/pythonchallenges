@@ -1,10 +1,13 @@
-x = '121'
+x = 'Anna'
 
 def isPalindrome(x):
-    rev = ''.join(reversed(x))
-    if x == rev:
-        return True
-    return False
+    print(reversed(x))
+    rev = ''.join(reversed(x)).lower()
+    print(rev)
+    return x.lower() == rev
+     #   return True
+    #return False
+    
     
 
-isPalindrome(x)
+print(isPalindrome(x))
